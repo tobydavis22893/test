@@ -2,12 +2,210 @@
 <html>
 <head>
 	<title>Hello Toby</title>
+	<style type="text/css">
+		p {
+			color: blueviolet;
+			text-align: left;
+			font-size: 20px;
+			text-decoration: underline;
+		}
+
+		div {
+			color: black;
+			font-size: 15px;
+			font-weight: 15px;
+			text-align: left;
+		}
+
+		.calender {
+			color: black;
+			font-size: 30px;
+			font-weight: 15px;
+			margin-left: 100px;
+			margin-top: 0px;
+			margin-bottom: 15px;
+		}
+		.calender_sub {
+			color: black;
+			font-size: 15px;
+			font-weight: 15px;
+			margin-left: 150px;
+		}
+
+		hr {
+			border: 1px solid black;
+		}
+
+		ul {
+			text-align: left;
+			font-size: 15px;
+			color: black;
+			list-style: none;
+		}
+
+		h1 {
+			text-align: center;
+			color: darkgreen;
+			font-family: Courier New
+
+		}
+
+		body {
+			min-width: 100%;
+			background-color:rgb(150, 150, 150, 0.5);
+
+		}
+		.backgroundImage{
+			background-image: url("images/Mountains.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.mainTable {
+			width: 98%;
+			padding-right: 100px;
+			padding-left: 100px;
+			background-color: rgb(250, 250, 250, 0.8);
+			border: black solid 1px;
+		}
+		.calTable {
+			width: 98%;
+			padding-right: 100px;
+			padding-left: 100px;
+			background-color: rgb(250, 250, 250, 0.8);
+			border: black solid 1px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+		.section {
+			padding: 10px;
+			background-color: rgb(250, 250, 250, 0.8);
+			border: black solid 1px;
+			width: 96.1%;
+		}
+		.secTable {
+			text-align: center;
+			font-size: 15px;
+			color: black;
+			background-color: rgb(169, 169, 169, 0.5);
+			
+		}
+		.primTable {
+
+			text-align: left;
+			font-size: 15px;
+			color: darkgreen;
+		}
+		a.one:link, a.one:visited{
+			color: black;
+			text-decoration: none;
+			background-color: rgb(169, 169, 169, 0.5);;
+			padding: 5px;
+		}
+		a.one:hover, a.one:active{
+			color: black;
+			text-decoration: none;
+			background-color: rgb(169, 169, 169, 1.0);
+			padding: 5px;
+			border: black solid 1px;
+		}
+	</style>
 </head>
-<body>
-<h1> Look behind you!!<h1>
+<body class="backgroundImage">
+	<h1> The Utah Jazz<h1>
+		<img src="https://logos-download.com/wp-content/uploads/2016/04/Utah_Jazz_logo_alternate_logotype.png" height="233" width="500">
+		<div></div>
+		<a class="one" href="https://www.nba.com/jazz/" target="blank">Visit the team!</a>
+		<a class="one" href="https://jazzteamstore.com/" target="blank">Visit the shop!</a>
+		<hr>
+	<table class="mainTable">
+		<tr>
+			<td>
+				<p> Roster:</p>
+				<table>
+					<tr>
+						<th></th>
+						<th class="primTable">Pts:</th>
+						<th class="primTable">Ast:</th>
+						<th class="primTable">Reb:</th>
+						<th></th>
+					</tr>
+					<tr>
+						<th class="primTable">C: Walker Kessler</th>
+						<th class="secTable">8</th>
+						<th class="secTable">4</th>
+						<th class="secTable">9</th>
+						<th class="secTable"></th>
+					</tr>
+					<tr>
+						<th class="primTable">PF: John Collins</th>
+						<th class="secTable">16</th>
+						<th class="secTable">3</th>
+						<th class="secTable">11</th>
+						<th class="secTable"></th>
+					</tr>
+					<tr>
+						<th class="primTable">SF: Lauri Markkanen</th>
+						<th class="secTable">26</th>
+						<th class="secTable">5</th>
+						<th class="secTable">7</th>
+						<th class="secTable">&#9734</th>
+					</tr>
+					<tr>
+						<th class="primTable">SG: Jordan Clarkson</th>
+						<th class="secTable">33</th>
+						<th class="secTable">5</th>
+						<th class="secTable">7</th>
+						<th class="secTable">&#9733</th>
+					</tr>
+					<tr>
+						<th class="primTable">PG: Keyonte George</th>
+						<th class="secTable">12</th>
+						<th class="secTable">9</th>
+						<th class="secTable">3</th>
+						<th class="secTable"></th>
+					</tr>
+					<tr></tr>
+				</table>
+				<div>&#9733 All Star Starter</div>
+				<div>&#9734 All Star </div>
+			</td>
+			<td>
+				<img src="images/lauri.jpg" height="150" width="270" align="right">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Bench:</p>
+				<ul>
+					<li>Kelly Olynyk</li>
+					<li>Simone Fonteccio</li>
+					<li>Talen Horton-Tucker</li>
+					<li>Kris Dunn</li>
+					<li>Collin Sexton</li>
+					<li>Ochai Agbaji</li>
+				</ul>
+			</td>
+			<td>
+				<img src="images/clarkson.jpg" height="150" width="270" align="right">
+			</td>
+		</tr>
+	</table>
+	<hr>
+	<section>
+		<table class="calTable">
+			<tr>
+				<th><p class="calender">Calender:</p><div class="calender_sub">Next Matchup: 23/2/24 8:00pm @ LA Lakers</div><div class="calender_sub">Record: 12-30</div></th>
+				<td align="right"><img src="images/calender.jpg" height="100" width="100"></td>
+			</tr>
+		</table>
+	</section>
 </body>
 <footer>
 	<hr>
-	<p> Tech support: WeWontHelp@GetFucked.com</p>
+	<table class="calTable">
+			<tr>
+				<th><div> Tech support: WeWontHelp@GetFucked.com  |  Call us at 1800-eat-a-dick  |  <a class="one" href="https://www.sportingnews.com/au/nba?gr=www" target="blank">NBA website </a></div></th>
+			</tr>
+		</table>
 </footer>
 </html>
